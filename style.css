@@ -1,0 +1,282 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    /* font-family: Graphik, Arial, Helvetica, sans-serif; */
+    font-family: "graphik";
+    /* font-family: "Graphik"; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* Graphik, Arial, Helvetica, sans-serif */
+}
+
+/* navigation bar */
+.nav{
+    width: 100%;
+    padding: 0 5vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .first img{
+height: 6vh;
+}
+.nav .second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+.second a{
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+.third *{
+    color: white;
+}
+.option{
+
+}
+
+/* front page */
+.frontPage{
+    background-color: black;
+}
+.movingText{
+    width: 100%;
+    padding-top: 9vh;
+    padding: 9vh 20px 5vh 20px;
+}
+.movingText .textToLeft{
+    text-align: left;
+}
+.movingText .textToRight{
+    text-align: right;
+}
+.movingText .textToMid{
+    text-align: center;
+    color: white;
+    padding: 8vh 0;
+}
+.textToMid i , .right-arrow{
+    background-color: #A100FF;
+}
+.frontPage h1{
+    line-height: 5rem;
+    font-size: 17vh;
+    color: white;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+    /* font-family: "graphik"; */
+    text-transform: uppercase;
+}
+
+/* featured-container */
+.featured .container{
+    height: 70vh;
+    width: 20%;
+    /* background-color: lightseagreen; */
+    /* background-image:''; */
+    background-size: cover;
+    background-position: center;
+    /* display: inline-block; */
+    margin-bottom: 35px;
+
+}
+
+.featured{
+    /* white-space: wrap; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* stakeholder starts here*/
+
+.stakeholder{
+    padding-top: 15vh;
+}
+
+.stakeholder h1{
+    height: 28vh;
+    color: white;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.stakeholder #stkhld2{
+    height: 10vh;
+    color: white;
+    text-align: center;
+    width: 45%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    /* font-family: 'Graphik', Arial, Helvetica, sans-serif; */
+    /* font-family: 'GT Sectra Fine, Palatino'; */
+    /* margin-bottom: 20vh; */
+}
+
+/* swiper starts here */
+.swiper{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20vh; */
+}
+.swiper .imgL{
+    height:100%;
+    width: 50%;
+    background-image: url('https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Metaverse-Collaboration-Hero-1920x1080%3Arad-3x2?ts=1706642421721&dpr=off');
+    background-position: center;
+    background-size: cover;
+}
+.swiper .textR{
+    width: 42%;
+    color: white;
+    text-align: left;
+    padding: 0 0 0 27vh;
+
+}
+.textR h3{
+    width: 86%;
+    font-weight: 100;
+}
+.textR>#textRh2{
+    color: white;
+    display: inline-block;
+    font-size: 4vh;
+    padding-bottom: 2vh;
+}
+/* swiper ends here */
+.global{
+    height: 70vh;
+    width: 100%;
+    display: flex;align-items: center;justify-content: center;
+    background-color: black;
+    padding: 10vh 28vh;
+}
+.global-h1{
+color: white;
+font-size: 15vh;
+text-align: center;
+font-family: 'Graphik', Arial, Helvetica, sans-serif;
+}
+
+/* page-3 starts here */
+.page-3{
+height: 100vh;
+width: 100%;
+background-color: black;
+
+}
+#manager{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.leftPage-3{
+    height: 70vh;
+    width: 50%;
+    background-image: url('https://dynamicmedia.accenture.com/is/image/accenture/A1-A.com-Careers-Module-Image?qlt=85&ts=1706646618781&$1024-PNG$&dpr=off');
+    background-position: center;
+    background-size: cover;
+}
+.waootext h2{
+    font-size: 7vh;
+    padding-bottom: 2vh;
+}
+
+.waootext h3{
+    /* font-size: 7vh; */
+    padding-bottom: 2vh;
+}
+.waootext h3{
+    font-weight: 100;
+}
+.waootext{
+    color: white;
+    text-align: left;
+    /* width: 30%; */
+    display: inline-block;
+    padding: 2vh 30vh;
+}
+.waootext *{
+    display: inline-block;
+    
+}
+.rightPage-3{
+width: 50%;
+}
+.page-3 img{
+    display: block; 
+}
+/* news */
+
+/* comp-info */
+.comp-info{
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+color: white;
+/* padding: 30vh; */
+}
+.ciL
+{
+    width: 50%;
+    padding: 20vh 10vh;
+
+}
+.ciR{
+    width: 50%;
+}
+
+/* spl text */
+.spl-text{
+    position: relative;
+    overflow: hidden;
+}
+.spl-text::after{
+ content: "";
+ position: absolute;
+bottom: 0%;
+left: -100%;
+/* display: none; */
+ height: .4vh;
+ width: 100%;
+ z-index: 99999;
+ background-color:white;
+}
+.spl-text:hover::after{
+    /* background-color: white; */
+    left: 100%;
+    transition: all ease .7s ;
+    /* display: block; */
+}
+
+#lef{
+    width: 50%;
+    padding: 10vh 0vh 10vh 0;
+    /* margin-left: 4vh; */
+    height: 40%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 100;
+}
+#inner{
+    margin-left: 5vh;
+}
